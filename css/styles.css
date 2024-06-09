@@ -1,0 +1,60 @@
+body {
+    background-color: black;  
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:white
+}
+
+/*Con el atributo id nos referimos a un elemento particular un elemento unico, en cambio, el atributo class es mas general. */
+
+#parrafo1 {
+    color: aquamarine;
+    font-size: 30px;
+}
+
+#parrafo2{
+    color: coral;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    font-family: cursive ;
+}
+
+.blanco {
+    color: deeppink;
+}
+
+.cuadrado{
+    border-style: solid;
+    border-width: 3px;
+    border-color: indianred;
+    width: 50%;
+}
+
+.cuadrado-blanco{
+    border-style: solid;
+    border-width: 4px;
+    border-color: crimson;
+    color: coral;
+    margin: 15px;
+    padding: 15px;
+    width: 50%;
+}
+
+/* margin se puede escribir cada margen en la misma linea de codigo en este orden: Top; right, bot; left. sentido de las agujas del reloj */
+
+/* Diferencia entre margin y padding: Margin es separacion con la parte exterior de la caja. Padding es separacion con los elementos internos de la caja */
+
+/* CNTRL + SPACE te muestra todas las clases que se pueden usar */
+
+.left {
+    float: left;
+    width: 50%;
+    background-color: lightblue;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    background-color: lightcoral;
+}
